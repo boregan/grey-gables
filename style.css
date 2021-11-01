@@ -75,9 +75,6 @@ h6 {
   flex: 0 0 auto;
 }
 
-.h-250 {
-  height: 250px;
-}
 @media (min-width: 768px) {
   .h-md-250 {
     height: 250px;
@@ -114,14 +111,6 @@ h6 {
   }
 }
 
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
 /*
    * Blog posts
    */
@@ -149,4 +138,15 @@ h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.jumbotron-background {
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
